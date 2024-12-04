@@ -1,0 +1,4 @@
+Barbara Johnson 40 90000000
+Henry Norton-Bower 20 12000
+Gordon Novak 19 3000
+Olaf Student 21 0

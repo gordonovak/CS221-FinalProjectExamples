@@ -45,6 +45,7 @@ int main(int argc, char* argv[]) {
 
     // And that's it.
 
+    fileReader.close();
     return 0;
 
 }

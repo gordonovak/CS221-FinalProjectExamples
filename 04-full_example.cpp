@@ -1,6 +1,7 @@
 // Written by gordon novak
 
 // This file is a full example of what this whole process put together looks like.
+// I won't put many comments in here. It's up to you to determine what's happening by reading the previous .cpp files.
 #include <fstream>
 #include <iostream>
 #include <vector>

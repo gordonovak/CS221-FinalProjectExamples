@@ -57,7 +57,7 @@ vector<Person*> extractData(string fileName) {
     // Then, we write our while loop with the ifstream object
     
     while (fileReader >> fname) { // In this while loop, we are saying:
-        //Create your object      // "Keep putting information into our fname string until there are no more strings left in the file")
+        //Create your object      // "Keep putting information into our fname string until there are no more strings left in the file"
         Person* p;
         
         // Input data into your variables in order:

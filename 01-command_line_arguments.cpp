@@ -13,9 +13,11 @@ void print_arguments(int& argc, char**& argv);
 // To actually use these new arguments (ex. "arg1") we have to write our main function like this:
 int main(int argc, char* argv[] ){
     // argc is the number of arguments (for "./a.out arg1 arg2 arg3" we have 4 arguments)
-    // argv is an array with all the arguments such that for "./a.out thing":
+    // argv is an array with all the arguments such that for "./a.out arg1 arg2 arg3"
     //      argv[0] = "./a.out";
-    //      argv[1] = "thing";
+    //      argv[1] = "arg1";
+    //      argv[2] = "arg2";
+    //      argv[3] = "arg3";
 
     /*  Say for example, if I typed into the terminal:
 

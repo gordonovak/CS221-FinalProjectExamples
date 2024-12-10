@@ -61,6 +61,9 @@ vector<Person*> extractData(string fileName) {
         personList.push_back(p);
     }
 
+    // Make sure to close your file.
+    fileReader.close();
+    
     //Return your vector when done
     return personList;
 }
